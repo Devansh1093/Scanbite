@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "ScanBite",
+    "slug": "scanbite",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "ScanBite needs camera access to scan product barcodes."
+        }
+      ],
+      "expo-asset"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.scanbite.app"
+    }
+  }
+}
