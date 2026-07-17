@@ -1,4 +1,4 @@
-# ScanBite Backend
+# Backend
 
 Node.js + Express + MongoDB backend for ScanBite: scan a barcode, get an
 environmental score, sourced from Open Food Facts and cached in MongoDB.
