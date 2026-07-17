@@ -18,7 +18,17 @@
       "supportsTablet": false
     },
     "android": {
-      "package": "com.scanbite.app"
-    }
+      "package": "com.scanbite.app",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "29f5b190-0e36-4a40-bc0f-e239951f0bc3"
+      }
+    },
+    "owner": "dr0902s-team"
   }
 }

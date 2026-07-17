@@ -8,4 +8,4 @@
 // Android emulator (not physical device) can alternatively use 10.0.2.2,
 // which is a special alias to the host machine's localhost.
 
-export const API_BASE_URL = 'http://192.168.29.194:5000/api';
+export const API_BASE_URL = 'https://backend-wf6s.onrender.com/api';
