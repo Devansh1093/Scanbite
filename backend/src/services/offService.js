@@ -17,11 +17,7 @@ async function fetchProductByBarcode(barcode) {
   return normalizeProduct(data.product);
 }
 
-/**
- * Maps OFF's response down to what the nutrition scoring engine needs.
- * nutrient_levels is OFF's own low/moderate/high classification - using
- * it directly avoids re-deriving sugar/salt/fat thresholds ourselves.
- */
+
 function normalizeProduct(p) {
   return {
     name: p.product_name || p.generic_name || 'Unknown product',

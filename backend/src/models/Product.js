@@ -35,9 +35,7 @@ const productSchema = new mongoose.Schema(
     additivesCount: { type: Number, default: null },
     allergens: [{ type: String }],
 
-    // ScanBite's own computed nutrition score. Mixed type for
-    // metrics/breakdown since their shape (value + label + reason
-    // strings) is intentionally flexible as the scoring engine evolves.
+   
     nutritionScore: {
       value: { type: Number, min: 0, max: 100 },
       grade: { type: String, enum: ['A', 'B', 'C', 'D', 'E'] },
