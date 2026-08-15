@@ -26,8 +26,6 @@ export default function SearchScreen({ navigation }) {
 
   function handleChange(text) {
     setQuery(text);
-    // Simple debounce - fine for a portfolio project; swap for a proper
-    // debounce hook if search gets called from more places.
     clearTimeout(handleChange._t);
     handleChange._t = setTimeout(() => runSearch(text), 400);
   }
@@ -43,7 +41,7 @@ export default function SearchScreen({ navigation }) {
 
       {loading ? <Text style={styles.status}>Searching…</Text> : null}
       {!loading && query && results.length === 0 ? (
-        <Text style={styles.status}>No cached products match yet - scan a few first.</Text>
+        <Text style={styles.status}>Product not found.</Text>
       ) : null}
 
       <FlatList

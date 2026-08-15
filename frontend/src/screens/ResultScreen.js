@@ -55,7 +55,7 @@ export default function ResultScreen({ route, navigation }) {
       ) : null}
 
       <View style={styles.scanAgain}>
-        <Button title="Scan another product" onPress={() => navigation.navigate('Scan')} />
+        <Button title="Scan another product" onPress={() => navigation.navigate('Home')} />
       </View>
     </ScrollView>
   );
