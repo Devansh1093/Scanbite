@@ -8,7 +8,6 @@ ScanBite is a mobile application for scanning food products and viewing their nu
 - Nutrition information and score
 -  Product search
 -  History of past products
-- 
 
 ## Tech Stack
 
@@ -32,6 +31,7 @@ ScanBite is a mobile application for scanning food products and viewing their nu
 - Expo Application Services (EAS)
 
 ## Download
+- Download the APK from Release
 
 
 ## Author
