@@ -15,7 +15,6 @@ ScanBite is a mobile application for scanning food products and viewing their nu
 - React Native
 - JavaScript
  
-
 ### Backend
 - Node.js
 - Express.js
@@ -32,10 +31,3 @@ ScanBite is a mobile application for scanning food products and viewing their nu
 
 ## Download
 - Download the APK from Release
-
-
-## Author
-
-**Devansh Roy**
-
-GitHub: [@Devansh1093](https://github.com/Devansh1093)
